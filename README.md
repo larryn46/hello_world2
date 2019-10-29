@@ -16,5 +16,7 @@ Home/LetterBox/Humidity 31.00<br>
 Home/LetterBox/HeatIndex 22.16<br>
 on a remote box running <br>
 $ mosquitto_sub -h 192.168.1.94 -t Home/LetterBox/+ -v<br>
+to display MQTT messages plus date and time, in linux bash, try:<br>
+mosquitto_sub -h 192.168.1.94 -t Home/LetterBox/+ -v | while read line ; do  echo -e  "$(date)\t $line" ; done<br>
 updated 10/29/2019 0531 PDT
 
