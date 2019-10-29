@@ -1,4 +1,5 @@
 # hello_world2 edited 8/15/2018 1354 pdt<br>
+use 17j ~/Arduino/credentials.h for ssid and password<br>
 use 17j ~/Arduino/uMQTTBroker for MQTT broker at 192.168.1.94<br>
 use 17j ~/Arduino/ESP8266MQTTletterbox for MQTT publisher. This displays<br>
 
