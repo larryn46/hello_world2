@@ -1,6 +1,7 @@
 # hello_world2 edited 11/03/2019 0321 pst<br>
 use 17j ~/Arduino/credentials.h for ssid and password<br>
 use RP3 model B running dietpi96 for MQTT broker at 192.168.1.96 see https://dietpi.com/<br>
+use 17j ~/Arduino/mqtt_esp8266_test4-DS2FlashAfterSendMQTT_D1OnAfterConnect192.168.1.96 mailbox sender to mqtt broker 192.168.1.96 (dietPi96) at mailbox as sender. Connects to 192.168.1.96. Transmits seconds to connection and battery level (260 = time to replace)<br>
 use 17j ~/Arduino/ESP8266MQTTletterbox192.168.1.96 for MQTT publisher. This displays<br>
 
 Lux = 2.00<br>
